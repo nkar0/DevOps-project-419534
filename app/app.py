@@ -17,6 +17,12 @@ class AppHandler(BaseHTTPRequestHandler):
                 "student": "419534"
             }
             status_code = 200
+        elif self.path == "/demo":
+            response = {
+                "message": "Nowy endpoint wdrożony automatycznie",
+                "student": "419534"
+            }
+            status_code = 200
         else:
             response = {
                 "error": "Not found"
