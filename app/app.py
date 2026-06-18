@@ -19,7 +19,7 @@ class AppHandler(BaseHTTPRequestHandler):
             status_code = 200
         elif self.path == "/demo":
             response = {
-                "message": "Nowy endpoint wdrozony automatycznie",
+                "message": "Prezentacja",
                 "student": "419534"
             }
             status_code = 200
